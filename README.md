@@ -1,8 +1,29 @@
-# React + Vite
+<img src="./src/assets/img/animation.gif" alt="Translate Thunk">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Translate Projesi (TR)
 
-Currently, two official plugins are available:
+Translate, dil api'sine sınırsız erişim sunar. Özgün içerikler, kişiselleştirilmiş öneriler ve daha fazlası için hemen kullanmaya başlayın!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Kullanılan Teknolojiler
+
+- HTML
+- CSS
+- JS
+- REACT
+- TAILWIND
+- REDUX TOOLKIT
+- REDUX THUNK
+
+# Translate Project (EN)
+
+Translate offers unlimited access to the language API. Start using now for original content, personalized recommendations and more!
+
+## Technologies Used
+
+- HTML
+- CSS
+- JS
+- REACT
+- TAILWIND
+- REDUX TOOLKIT
+- REDUX THUNK

@@ -10,7 +10,11 @@ const initialState = {
  const translateSlice = createSlice({
     name: 'translate',
     initialState,
-    reducers: {},
+    reducers: {
+        setAnswer: (state, action) => {
+            state.answer = action.payload;
+          }
+    },
     extraReducers: (builder) => {
         builder.addCase(translateText.pending, (state) => {
             state.isLoading = true
@@ -24,9 +28,11 @@ const initialState = {
         builder.addCase(translateText.fulfilled, (state, action) => {
             state.isLoading = false
             state.error = null
-            state.answer = action.payload
+            state.answer = action.payload.data.translatedText
         })
     }
 })
 
 export default translateSlice.reducer
+
+export const { setAnswer } = translateSlice.actions
